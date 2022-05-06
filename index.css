@@ -589,7 +589,9 @@ footer .footer_three p{
 
 
 @media screen and (max-width:540px){
-
+    .titulos {
+        margin: 50px 26px 8px 26px;
+    }
     .cards .card:nth-child(1)::after{
         content: ">";
         font-size: 50px;
@@ -644,6 +646,7 @@ footer .footer_three p{
         margin-top: 22px;
         color: white;
         font-size: 18px;
+        cursor: pointer;
     }
   
     nav ul,footer .footer_two_horizontal .verticalLign {
@@ -716,7 +719,7 @@ footer .footer_three p{
         padding: 0 40px;
     }
     footer .footer_two_horizontal_first li {
-    color: white;
+    color: #fafafa;
     width: 30px;
     }
     footer .footer_two_horizontal_first {
